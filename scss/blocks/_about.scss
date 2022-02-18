@@ -1,0 +1,71 @@
+.about {
+  background: linear-gradient(
+      90deg,
+      #6d6df6 27.29%,
+      rgba(109, 109, 246, 0.65) 100%
+    ),
+    url(../img/backgrounds/about-bg.jpg) center center/cover no-repeat;
+  text-align: center;
+  padding: 128px 0;
+}
+
+.about__title {
+  font-family: Eina02-Regular;
+  font-size: 60px;
+  line-height: 72px;
+  color: #fff;
+  span {
+    color: $primary-color;
+  }
+}
+
+.about__text {
+  font-family: Eina02-Light;
+  font-size: 21px;
+  line-height: 28px;
+  color: #fff;
+  margin: 28px 0 64px;
+}
+
+.about__items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.about__item {
+  padding: 48px 28px;
+  background: #fff;
+  text-align: left;
+  max-width: 460px;
+  width: 100%;
+}
+
+.about__item-title {
+  font-family: Eina02-Regular;
+  font-size: 32px;
+  line-height: 38px;
+  margin: 28px 0 18px;
+}
+
+.about__item-list {
+  margin-left: 14px;
+}
+
+.about__list-item {
+  font-family: Eina02-Light;
+  line-height: 21px;
+  color: #7c8a95;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #7c8a95;
+    border-radius: 50%;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+  }
+}

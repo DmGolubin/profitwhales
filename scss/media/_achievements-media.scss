@@ -1,0 +1,15 @@
+@media (max-width: 1220px) {
+  .achievements {
+    padding: 0;
+    height: 365px;
+  }
+  .achievements__items {
+    display: none;
+  }
+}
+
+@media (max-width: 624px) {
+  .achievements {
+    height: 465px;
+  }
+}

@@ -1,0 +1,21 @@
+.btn {
+  padding: 21px 35px;
+  font-family: Eina02-SemiBold;
+  line-height: 14px;
+  border: none;
+  border-radius: 4px;
+  background: $secondary-color;
+  color: #fff;
+  text-transform: uppercase;
+  &_manage {
+    padding: 21px 45.5px;
+  }
+  &_primary {
+    background: $primary-color;
+    color: $secondary-color;
+  }
+  &_cases {
+    display: block;
+    margin: 0 auto;
+  }
+}

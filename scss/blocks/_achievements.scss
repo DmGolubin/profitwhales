@@ -1,0 +1,29 @@
+.achievements {
+  padding: 64px 0;
+  background: #f3f7fd;
+}
+
+.achievements__items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.achievements__item {
+  text-align: center;
+}
+
+.achievements__item-number {
+  font-family: Eina02-Regular;
+  font-size: 64px;
+  line-height: 58px;
+  color: $secondary-color;
+  margin-bottom: 18px;
+}
+
+.achievements__item-text {
+  font-family: Eina02-Regular;
+  font-size: 24px;
+  line-height: 31px;
+  color: #7c8a95;
+}

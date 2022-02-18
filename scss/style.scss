@@ -1,0 +1,32 @@
+@import "base/bootstrap-reboot";
+@import "base/vars";
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 1460px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.landing-page {
+  font-family: Eina;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+@import "blocks/buttons";
+@import "blocks/forms";
+@import "blocks/fonts";
+@import "blocks/promo";
+@import "blocks/partners";
+@import "blocks/approach";
+@import "blocks/agencies";
+@import "blocks/achievements";
+@import "blocks/about";
+@import "blocks/cases";
+@import "blocks/footer";
+@import "media/media";

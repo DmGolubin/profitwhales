@@ -1,0 +1,37 @@
+@media (max-width: 1340px) {
+  .partners {
+    padding: 488px 0 88px;
+  }
+  .partners__title {
+    margin-bottom: 30px;
+    font-size: 50px;
+    line-height: 56px;
+  }
+  .partners__wrapper {
+    flex-direction: column;
+  }
+  .partners__img {
+    margin-bottom: 32px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .partners {
+    padding: 464px 0 64px;
+  }
+  .partners__title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+
+// Не уменьшил размер картинок
+@media (max-width: 624px) {
+  .partners__title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}

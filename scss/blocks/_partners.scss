@@ -1,0 +1,20 @@
+.partners {
+  text-align: center;
+  padding: 128px 0;
+}
+
+.partners__title {
+  font-family: Eina02-Regular;
+  font-size: 60px;
+  line-height: 72px;
+  margin-bottom: 58px;
+  span {
+    color: $secondary-color;
+  }
+}
+
+.partners__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

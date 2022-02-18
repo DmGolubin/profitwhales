@@ -1,0 +1,34 @@
+.approach {
+  padding: 128px 0 74px;
+  text-align: center;
+  background: #f3f7fd;
+}
+
+.approach__title {
+  font-family: Eina02-Regular;
+  font-size: 60px;
+  line-height: 72px;
+  span {
+    color: $secondary-color;
+  }
+}
+
+.approach__text {
+  font-family: Eina02-Light;
+  max-width: 1010px;
+  font-size: 21px;
+  line-height: 28px;
+  color: #7c8a95;
+  margin: 28px auto 48px;
+}
+
+.approach__img {
+  max-width: 1121px;
+  width: 100%;
+  display: block;
+  margin: 64px auto 0;
+  &_media {
+    max-width: 400px;
+    display: none;
+  }
+}

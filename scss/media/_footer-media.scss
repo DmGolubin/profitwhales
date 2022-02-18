@@ -1,0 +1,51 @@
+@media (max-width: 1340px) {
+  .footer {
+    padding: 47px 0 25px;
+  }
+}
+
+@media (max-width: 850px) {
+  .footer__text {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .footer__col {
+    margin: 48px auto;
+    min-width: 255px;
+  }
+  .footer__contact {
+    display: inline-block;
+    margin-bottom: 18px;
+  }
+  .footer__group {
+    margin-bottom: 16px;
+    div {
+      display: none;
+    }
+    &:nth-child(5) {
+      display: none;
+    }
+    span,
+    a {
+      font-size: 16px;
+      line-height: 21px;
+    }
+  }
+  .footer__social {
+    margin-top: 44px;
+  }
+  .footer__row {
+    margin-top: 28px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .terms {
+    margin-top: 47px;
+    a {
+      margin: 0 24px 0 0;
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+}
